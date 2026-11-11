@@ -218,7 +218,25 @@ footer p {
     opacity: 0.8;
 }
 
+/* MOBIL */
+.kort-container {
+    display: grid;
+    /* Opretter automatisk så mange kolonner, som der er plads til.
+    Hver kolonne skal være mindst 250px, men må vokse og fylde den ledige plads*/
+    grid-template-columns: repeat(auto-fit, minmax(250px. 1fr));
+    gap: 20px;
+    padding: 40px 8%;
+}
+
+.kort {
+    background-color: #929D82;
+    padding: 30px;
+    text-align: center;
+}
+
 /* TABLET OG DESKTOP - FRA 768PX */
 @media (min-width: 768px) {
-    
+    .kort-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
