@@ -1,0 +1,210 @@
+/* GENERELT */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F1E8;
+    color: #2B2925;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    height: 80px;
+    padding: 0 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #F5F1E8;
+}
+
+#logo {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2B2925;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: #2B2925;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #2B2925;
+    color: white;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+
+/* INTRO SEKTION */
+
+.intro {
+    background-color: #929D82;
+
+    display: flex;
+    align-items: center;
+
+    gap: 70px;
+    padding: 80px 8%;
+}
+
+.intro-billede,
+.intro-tekst {
+    width: 50%;
+}
+
+#billede {
+    width: 100%;
+    display: block;
+    border: black solid;
+    border-radius: 5px;
+}
+
+.intro-tekst {
+    max-width: 500px;
+}
+
+.lille-overskrift {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.intro-tekst h2 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.intro-tekst p {
+    margin-bottom: 30px;
+}
+
+
+/* KNAP */
+
+.knap {
+    display: inline-block;
+
+    background-color: #2B2925;
+    color: white;
+
+    padding: 14px 25px;
+
+    text-decoration: none;
+    border-radius: 3px;
+
+    transition: 0.3s;
+}
+
+.knap:hover {
+    background-color: white;
+    color: #2B2925;
+}
+
+
+/*  DE TRE TEKSTER */
+
+.om-kaffebar {
+    padding: 100px 8%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 50px;
+}
+
+.om-kaffebar article {
+    padding: 30px;
+}
+
+.om-kaffebar h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.om-kaffebar p {
+    margin-bottom: 15px;
+}
+
+
+/* ADRESSE OG ÅBNINGSTIDER */
+
+.info {
+    background-color: #929D82;
+
+    padding: 70px 8%;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 150px;
+}
+
+.info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #2B2925;
+    color: white;
+
+    text-align: center;
+
+    padding: 50px 20px;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
