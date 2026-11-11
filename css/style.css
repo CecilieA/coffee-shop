@@ -217,3 +217,8 @@ footer p {
     font-size: 0.85rem;
     opacity: 0.8;
 }
+
+/* TABLET OG DESKTOP - FRA 768PX */
+@media (min-width: 768px) {
+    
+}
